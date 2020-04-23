@@ -1,11 +1,10 @@
 package com.neusoft.$temp.collection;
 
 import java.util.LinkedList;
-import java.util.Queue;
 
 public class LinkedListQueueTest {
 	public static void main(String[] args) {
-		LinkedList<String> queue = new LinkedList<String>();//linkedList���ɳ䵱��Ҳ�ɳ䵱ջpush,offer
+		LinkedList<String> queue = new LinkedList<String>();//linkedList���ɳ䵱��Ҳ�ɳ䵱ջpush,offer
 		//Queue<String> queue = new LinkedList<String>();
 		queue.offer("zhangsan");
 		queue.push("iiiiiii");

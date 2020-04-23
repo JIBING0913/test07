@@ -1,7 +1,5 @@
 package com.neusoft.freqclass.teach;
 
-import java.util.regex.Pattern;
-
 public class BigDecimalTest {
 	private static final int DEF_DIV_SCALE = 3;
 	public int addition(int a,int b) {
@@ -19,16 +17,16 @@ public class BigDecimalTest {
 	public String addition(String a,String b) {
 		String regex = "^[0-9]+$";
 		/*if(!Pattern.matches(regex, a)){
-			return "·Ç·¨ÊäÈë£¡";
+			return "ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ë£¡";
 		}
 		if(!Pattern.matches(regex, b)){
-			return "·Ç·¨ÊäÈë£¡";
+			return "ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ë£¡";
 		}*/
 		if(a.matches(regex)){
-			return "·Ç·¨ÊäÈë£¡";
+			return "ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ë£¡";
 		}
 		if(b.matches(regex)){
-			return "·Ç·¨ÊäÈë£¡";
+			return "ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ë£¡";
 		}
 		Integer i1 = Integer.parseInt(a);
 		Integer i2 = Integer.parseInt(b);
@@ -47,15 +45,15 @@ public class BigDecimalTest {
 		double d2=0.2;
 		double f1=add.addition(d1, d2);
 		System.out.println("+:"+f1);
-		/*Ê¹ÓÃBigDecimalÒªÓÃStringÀ´¹»Ôì£¬Òª×öÒ»¸ö¼Ó·¨ÔËËã£¬
-		 * ĞèÒªÏÈ½«Á½¸ö¸¡µãÊı×ªÎªString£¬È»ºó¹»Ôì³ÉBigDecimal£¬
-		 * ÔÚÆäÖĞÒ»¸öÉÏµ÷ÓÃadd·½·¨£¬´«ÈëÁíÒ»¸ö×÷Îª²ÎÊı£¬
-		 * È»ºó°ÑÔËËãµÄ½á¹û£¨BigDecimalTest£©ÔÙ×ª»»Îª¸¡µãÊı¡£*/
+		/*Ê¹ï¿½ï¿½BigDecimalÒªï¿½ï¿½Stringï¿½ï¿½ï¿½ï¿½ï¿½ì£¬Òªï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ó·ï¿½ï¿½ï¿½ï¿½ã£¬
+		 * ï¿½ï¿½Òªï¿½È½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªÎªStringï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½ï¿½BigDecimalï¿½ï¿½
+		 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½addï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		 * È»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä½ï¿½ï¿½ï¿½ï¿½BigDecimalTestï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 		java.math.BigDecimal b_d1 = new java.math.BigDecimal(Double.toString(d1));
 		java.math.BigDecimal b_d2 = new java.math.BigDecimal(Double.toString(d2));
 		double dd1=b_d1.add(b_d2).doubleValue();
 		System.out.println("+:"+dd1);
-		//BigDecimal¼ÓÇ¿ÑµÁ·
+		//BigDecimalï¿½ï¿½Ç¿Ñµï¿½ï¿½
 		double f2=0.002-0.11345;
 		System.out.println("-:"+f2);
 		double dd2=sub(0.002,0.11345);
@@ -72,32 +70,32 @@ public class BigDecimalTest {
 		
 		java.math.BigDecimal a11 = new java.math.BigDecimal(Double.toString(10));
 	    java.math.BigDecimal b11 = new java.math.BigDecimal(Double.toString(3));
-	  //³ı·¨
-		/*Ìá¹©£¨Ïà¶Ô£©¾«È·µÄ³ı·¨ÔËËã£¬µ±·¢Éú³ı²»¾¡µÄÇé¿öÊ±£¬¾«È·µ½  
-		Ğ¡ÊıµãÒÔºóscaleÎ»(µÚ¶ş¸ö²ÎÊı£¬±ØĞë´óÓÚµÈÓÚ0£©£¬ÒÔºóµÄÊı×ÖËÄÉáÎåÈë¡£*/  
-	    /*µÚÈı¸ö²ÎÊıÉáÈëÄ£Ê½Ñ¡Ôñ
-		 * ROUND_HALF_UP:ËÄÉáÎåÈë£¬Óöµ½0.5Ê±ÍùÉÏ½üËÆ£¬·ñÔòÓëROUND_HALF_DOWNµÈÍ¬
-		 * ROUND_UP£º½øÎ»´¦Àí
-		 * ROUND_DOWNÖ±½ÓÉ¾³ı¶àÓàµÄĞ¡ÊıÎ»
-		 * ROUND_CEILINGÈç¹ûÎªÕıÔò½øÎ»£¬Èç¹ûÎª¸ºÔòÍËÎ»£¬¼´Ö»Ôö¼Ó¼ÆËãµÄÖµ
-		 * ROUND_FLOORÈç¹ûÎªÕıÔòÍËÎ»£¬Èç¹ûÎª¸ºÔò½øÎ»£¬¼´Ö»¼õÉÙ¼ÆËãµÄÖµ
-		 * ROUND_HALF_DOWNËÄÉáÎåÈë£¬Óöµ½0.5Ê±ÍùÏÂ½üËÆ
+	  //ï¿½ï¿½ï¿½ï¿½
+		/*ï¿½á¹©ï¿½ï¿½ï¿½ï¿½Ô£ï¿½ï¿½ï¿½È·ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ã£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½È·ï¿½ï¿½  
+		Ğ¡ï¿½ï¿½ï¿½ï¿½ï¿½Ôºï¿½scaleÎ»(ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½ï¿½ï¿½Ôºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë¡£*/  
+	    /*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£Ê½Ñ¡ï¿½ï¿½
+		 * ROUND_HALF_UP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë£¬ï¿½ï¿½ï¿½ï¿½0.5Ê±ï¿½ï¿½ï¿½Ï½ï¿½ï¿½Æ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ROUND_HALF_DOWNï¿½ï¿½Í¬
+		 * ROUND_UPï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½
+		 * ROUND_DOWNÖ±ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¡ï¿½ï¿½Î»
+		 * ROUND_CEILINGï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½Öµ
+		 * ROUND_FLOORï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½Ù¼ï¿½ï¿½ï¿½ï¿½Öµ
+		 * ROUND_HALF_DOWNï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë£¬ï¿½ï¿½ï¿½ï¿½0.5Ê±ï¿½ï¿½ï¿½Â½ï¿½ï¿½ï¿½
 		 * */
-	  //Èç¹û°ÑµÚÒ»¸ö²ÎÊı£¨³ıÊı£©¸³ÖµÎª1£¬Ôò¿ÉµÈ¼ÛÓÚ¶ÔÒ»¸öÊıËÄÉáÎåÈë¼ÆËã  
+	  //ï¿½ï¿½ï¿½ï¿½Ñµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÖµÎª1ï¿½ï¿½ï¿½ï¿½ÉµÈ¼ï¿½ï¿½Ú¶ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  
 	    double dd4=a11.divide(b11,DEF_DIV_SCALE, java.math.BigDecimal.ROUND_HALF_UP).doubleValue();
 		System.out.println("/:"+dd4);
 		
 		String e=add.addition("4", "2a");
 		System.out.println(e);
 	}
-	//¼õ·¨
+	//ï¿½ï¿½ï¿½ï¿½
 	public static double sub(double v1,double v2){   
 		java.math.BigDecimal b1 = new java.math.BigDecimal(Double.toString(v1));
 		java.math.BigDecimal b2 = new java.math.BigDecimal(Double.toString(v2));
 		return b1.subtract(b2).doubleValue();   
 		}   
 	
-	//³Ë·¨
+	//ï¿½Ë·ï¿½
 	public static double mul(double v1,double v2){   
 		java.math.BigDecimal b1 = new java.math.BigDecimal(Double.toString(v1));
 		java.math.BigDecimal b2 = new java.math.BigDecimal(Double.toString(v2));

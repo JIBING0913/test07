@@ -1,7 +1,5 @@
 package com.neusoft.array.prac;
 
-import java.util.Arrays;
-
 /**
  * @Author: wwb
  * @Date: 2020/4/16 11:41

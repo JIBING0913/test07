@@ -1,7 +1,5 @@
 package com.neusoft.base.teach;
 
-import java.util.Arrays;
-
 /**
  * @Author: wwb
  * @Date: 2020/4/20 10:29

@@ -1,6 +1,9 @@
 package com.neusoft.$temp.collection;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class ListQuchong {
 	public static void main(String[] args) {
@@ -13,11 +16,11 @@ public class ListQuchong {
 		list.add(25); 
 		list.add(40); 
 		System.out.println(list); 
-		//·½·¨Ò»:Ê¹ÓÃjava8ĞÂÌØĞÔstream½øĞĞListÈ¥ÖØ
+		//ï¿½ï¿½ï¿½ï¿½Ò»:Ê¹ï¿½ï¿½java8ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½streamï¿½ï¿½ï¿½ï¿½ListÈ¥ï¿½ï¿½
 //		List newList = (List) list.stream().distinct().collect(Collectors.toList()); 
-//		System.out.println("java8ĞÂÌØĞÔstreamÈ¥ÖØ:"+newList); 
+//		System.out.println("java8ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½streamÈ¥ï¿½ï¿½:"+newList); 
 		
-		//·½·¨¶ş:Ë«ÖØforÑ­»·È¥ÖØ 
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:Ë«ï¿½ï¿½forÑ­ï¿½ï¿½È¥ï¿½ï¿½ 
 //		for (int i = 0; i < list.size(); i++) {
 //			for (int j = 0; j < list.size(); j++) {
 //				if (i != j && list.get(i) == list.get(j)) {
@@ -25,9 +28,9 @@ public class ListQuchong {
 //				}
 //			}
 //		}
-//		System.out.println("Ë«ÖØforÑ­»·È¥ÖØ:"+list); 
+//		System.out.println("Ë«ï¿½ï¿½forÑ­ï¿½ï¿½È¥ï¿½ï¿½:"+list); 
 		
-		//·½·¨Èı:set¼¯ºÏÅĞ¶ÏÈ¥ÖØ,²»´òÂÒË³Ğò
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:setï¿½ï¿½ï¿½ï¿½ï¿½Ğ¶ï¿½È¥ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë³ï¿½ï¿½
 //		Set set1 = new HashSet();
 //		List newList1 = new ArrayList();
 //		for(Integer integer:list){
@@ -35,24 +38,24 @@ public class ListQuchong {
 //				newList1.add(integer);
 //			}
 //		}
-//		System.out.println("set¼¯ºÏÅĞ¶ÏÈ¥ÖØ:"+newList1); 
+//		System.out.println("setï¿½ï¿½ï¿½ï¿½ï¿½Ğ¶ï¿½È¥ï¿½ï¿½:"+newList1); 
 		
 		
-		//·½·¨ËÄ:±éÀúºóÅĞ¶Ï¸³¸øÁíÒ»¸ölist¼¯ºÏ 
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¶Ï¸ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½listï¿½ï¿½ï¿½ï¿½ 
 //		List newList2 = new ArrayList();
 //		for (Integer integer : list) {
 //			if (!newList2.contains(integer)) {
 //				newList2.add(integer);
 //			}
 //		}
-//		System.out.println("¸³ÖµĞÂlistÈ¥ÖØ:"+newList2); 
+//		System.out.println("ï¿½ï¿½Öµï¿½ï¿½listÈ¥ï¿½ï¿½:"+newList2); 
 		
 		
-		//·½·¨Îå:setºÍlist×ª»»È¥ÖØ 
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:setï¿½ï¿½list×ªï¿½ï¿½È¥ï¿½ï¿½ 
 		Set set2 = new HashSet(); 
 		List newList3 = new ArrayList(); 
 		set2.addAll(list); 
 		newList3.addAll(set2); 
-		System.out.println("setºÍlist×ª»»È¥ÖØ:"+newList3);
+		System.out.println("setï¿½ï¿½list×ªï¿½ï¿½È¥ï¿½ï¿½:"+newList3);
 	}
 }

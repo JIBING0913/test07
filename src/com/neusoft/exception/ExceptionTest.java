@@ -3,7 +3,6 @@ package com.neusoft.exception;
 import java.rmi.RemoteException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 /**
  * @Author: wwb
@@ -11,7 +10,7 @@ import java.util.Date;
  */
 public class ExceptionTest {
     public static void main(String[] args) throws ParseException, RemoteException, MyException {
-        //·ÇÊÜ¼ìÒì³£
+        //ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ì³£
 //        int i = 1/0;
 
 //        int[] arr = new int[2];
@@ -20,7 +19,7 @@ public class ExceptionTest {
 
 //        ExceptionTest.main(args);
 
-        //ÊÜ¼ìÒì³£
+        //ï¿½Ü¼ï¿½ï¿½ì³£
        /* SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         try {
             Date data = simpleDateFormat.parse("123");
@@ -35,7 +34,7 @@ public class ExceptionTest {
         test(simpleDateFormat);*/
        int i = 5;
        if(i > 1){
-           throw new MyException("ÕâÊÇÒ»¸ö×Ô¶¨ÒåµÄÒì³£");
+           throw new MyException("ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ì³£");
        }
 
 

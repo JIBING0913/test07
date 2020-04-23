@@ -36,7 +36,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587611003196</updated>
-      <workItem from="1587611007597" duration="2775000" />
+      <workItem from="1587611007597" duration="3970000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1587614712989</created>
@@ -78,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587615586313</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="测试1234">
+      <created>1587615844866</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587615844866</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,20 +106,33 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="测试" />
     <MESSAGE value="测试123" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试123" />
+    <MESSAGE value="测试1234" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试1234" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1050" y="118" key="CommitChangelistDialog2" timestamp="1587615781185">
+    <state x="1027" y="183" key="#Notifications" timestamp="1587618728925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1050" y="118" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587615781185" />
-    <state x="922" y="167" key="SettingsEditor" timestamp="1587611259432">
+    <state x="1027" y="183" key="#Notifications/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587618728925" />
+    <state x="1050" y="118" key="CommitChangelistDialog2" timestamp="1587615842723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="922" y="167" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587611259432" />
-    <state x="1027" y="258" key="Vcs.Push.Dialog.v2" timestamp="1587615596813">
+    <state x="1050" y="118" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587615842723" />
+    <state x="1298" y="415" key="Github.ShareDialog" timestamp="1587618777769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1027" y="258" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587615596813" />
+    <state x="1298" y="415" key="Github.ShareDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587618777769" />
+    <state x="867" y="167" key="SettingsEditor" timestamp="1587618648772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="867" y="167" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587618648772" />
+    <state x="1027" y="258" key="Vcs.Push.Dialog.v2" timestamp="1587619087059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1027" y="258" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587619087059" />
+    <state x="1156" y="316" key="git4idea.merge.GitPullDialog" timestamp="1587618706727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1156" y="316" key="git4idea.merge.GitPullDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587618706727" />
   </component>
 </project>

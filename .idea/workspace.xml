@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c31f85fe-4de7-4eec-a6b0-d660a6c1cbf9" name="默认更改列表" comment="" />
+    <list default="true" id="c31f85fe-4de7-4eec-a6b0-d660a6c1cbf9" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587611003196</updated>
-      <workItem from="1587611007597" duration="2471000" />
+      <workItem from="1587611007597" duration="2775000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1587614712989</created>
@@ -69,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587615361121</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="测试123">
+      <created>1587615586313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587615586313</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,20 +98,21 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="测试123" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试123" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1050" y="118" key="CommitChangelistDialog2" timestamp="1587615359033">
+    <state x="1050" y="118" key="CommitChangelistDialog2" timestamp="1587615781185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1050" y="118" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587615359033" />
+    <state x="1050" y="118" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587615781185" />
     <state x="922" y="167" key="SettingsEditor" timestamp="1587611259432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="167" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587611259432" />
-    <state x="1027" y="258" key="Vcs.Push.Dialog.v2" timestamp="1587615378883">
+    <state x="1027" y="258" key="Vcs.Push.Dialog.v2" timestamp="1587615596813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1027" y="258" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587615378883" />
+    <state x="1027" y="258" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587615596813" />
   </component>
 </project>

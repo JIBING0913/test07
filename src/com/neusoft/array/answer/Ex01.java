@@ -9,6 +9,7 @@ public class Ex01 {
 		for(int i=0;i<a.length;i++) {
 			//找出1个重复的,标志位一改变就可以跳出
 			if(flag==true) {
+				int i1 = 1;
 				break;
 			}
 			temp=a[i];

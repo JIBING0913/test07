@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c31f85fe-4de7-4eec-a6b0-d660a6c1cbf9" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test07.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/neusoft/$temp/collection/LinkedHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neusoft/$temp/collection/LinkedHashMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/neusoft/$temp/collection/LinkedListQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neusoft/$temp/collection/LinkedListQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/neusoft/$temp/collection/ListQuchong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neusoft/$temp/collection/ListQuchong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/neusoft/array/prac/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neusoft/array/prac/Ex01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/neusoft/base/teach/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neusoft/base/teach/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/neusoft/exception/ExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neusoft/exception/ExceptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/neusoft/freqclass/teach/BigDecimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neusoft/freqclass/teach/BigDecimalTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c31f85fe-4de7-4eec-a6b0-d660a6c1cbf9" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,8 +46,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587611003196</updated>
-      <workItem from="1587611007597" duration="1591000" />
+      <workItem from="1587611007597" duration="1890000" />
     </task>
+    <task id="LOCAL-00001" summary="测试">
+      <created>1587614712989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587614712989</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,11 +63,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1050" y="118" key="CommitChangelistDialog2" timestamp="1587614710237">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1050" y="118" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587614710237" />
     <state x="922" y="167" key="SettingsEditor" timestamp="1587611259432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="167" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587611259432" />
+    <state x="1027" y="258" key="Vcs.Push.Dialog.v2" timestamp="1587614758855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1027" y="258" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587614758855" />
   </component>
 </project>
